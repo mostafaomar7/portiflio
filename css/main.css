@@ -164,11 +164,18 @@ section{
 }
 .project-card{
     width: 100%;
-    border: none;
+    border: 1px solid #fff;
     border-radius: 10px;
     background-color: #fff;
     overflow: hidden;
     margin-bottom: 25px;
+    transition: 1s;
+}
+.project-card:hover{
+    transform: scale(1.1);
+}
+.project-card:hover img{
+    opacity: .8;
 }
 .project-txt{
     padding: 10px;
@@ -182,4 +189,44 @@ strong a{
 }
 strong a:hover{
     text-decoration: none;
+}
+#contact .row{
+    justify-content: center;
+}
+.card3 i{
+    text-align: center;
+    font-size: 5em;
+    margin-bottom: 20px;
+}
+#footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    background-color: #222;
+}
+#footer p{
+    font-size: 1.3em;
+    font-weight: 800;
+    color: #fff;
+}
+#footer span{
+    color: #3a6cf4;
+}
+#footer i{
+    color: #fff;
+    font-size: 1.3em;
+    padding: 0 12px;
+}
+@media (max-width:1000px){
+    #footer p{
+        font-size: .7em;
+        font-weight: 800;
+        color: #fff;
+        margin-top: 5px;
+    }
+    #footer i{
+        color: #fff;
+        font-size: .8em;
+        padding: 0 5px;
+    }
 }
