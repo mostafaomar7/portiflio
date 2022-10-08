@@ -215,7 +215,7 @@ strong a:hover{
 #footer i{
     color: #fff;
     font-size: 1.3em;
-    padding: 0 12px;
+    padding: 5px 12px;
 }
 @media (max-width:1000px){
     #footer p{
@@ -228,5 +228,6 @@ strong a:hover{
         color: #fff;
         font-size: .8em;
         padding: 0 5px;
+        
     }
 }
